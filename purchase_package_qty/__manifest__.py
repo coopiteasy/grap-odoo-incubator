@@ -5,22 +5,19 @@
 
 {
     "name": "Purchase - Package Quantity",
-    "version": "12.0.1.1.3",
+    "version": "12.0.2.0.1",
     "category": "Purchase",
     "author": "GRAP",
     "website": "https://github.com/grap/grap-odoo-incubator",
     "license": "AGPL-3",
     "depends": [
         "purchase",
+        # Depend on our replacement module.
+        "product_supplierinfo_qty_multiplier",
     ],
     "data": [
-        "views/view_product_supplierinfo.xml",
     ],
     "demo": [
-        "demo/res_groups.xml",
-        "demo/product_template.xml",
-        "demo/product_supplierinfo.xml",
-        "demo/purchase_order.xml",
     ],
     "installable": True,
 }
