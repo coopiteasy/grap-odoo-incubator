@@ -15,9 +15,4 @@
         # Depend on our replacement module.
         "product_supplierinfo_qty_multiplier",
     ],
-    "data": [
-    ],
-    "demo": [
-    ],
-    "installable": True,
 }
